@@ -11,6 +11,9 @@ pandas = "^2.0.0"
 numpy = "^1.24.2"
 
 
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.22.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
